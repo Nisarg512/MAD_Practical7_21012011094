@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         myVideoview.start()
         val button = findViewById<FloatingActionButton>(R.id.floating)
         button.setOnClickListener{
-            Intent(this,MainActivity::class.java).apply { startActivity(this) }
+            Intent(this,YoutubeActivity::class.java).apply { startActivity(this) }
         }
     }
 
