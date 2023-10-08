@@ -23,5 +23,6 @@
         android:layout_marginBottom="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/baseline_switch_video_24" />
+        app:srcCompat="@drawable/baseline_switch_video_24"
+        android:contentDescription="enter"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
